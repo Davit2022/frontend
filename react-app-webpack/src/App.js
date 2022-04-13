@@ -1,13 +1,13 @@
 import React from "react";
-import Test from "./test/test"
+import Home from "./homeComponets/home";
 function App (){
  
   return(
    <div>
     My App Component
-     <Test />
+     <Home />
    </div>
   );
- }
+}
 
 export default App

@@ -1,0 +1,27 @@
+
+body {
+  background-color: #a8aea3;
+}
+
+.Home   {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 43px;
+}
+
+.text-wrapper{
+  display: flex;
+}
+
+.text {
+  display: flex;
+  border: 5px solid #676767;
+}
+
+.headr {
+  background-color: rgb(164, 50, 50);
+  margin-top: 5px;
+}
+
