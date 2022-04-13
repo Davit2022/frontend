@@ -15,10 +15,7 @@ const Header = () => {
             <Link to="/login">
                 <div Classname="btn1">Login</div> 
             </Link>
-<<<<<<< HEAD
             
-=======
->>>>>>> bcd6d1ad79392b88e83f7307fb9e6336442b65c0
             <Link to="/register">
                 <div Classname="btn2">Register</div> 
             </Link>
