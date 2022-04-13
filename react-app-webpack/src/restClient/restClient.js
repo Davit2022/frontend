@@ -10,8 +10,7 @@ const RestClient = () => {
                 'Content-Type':'application/json', 
             }, body: JSON.stringify(body), }) 
                 .then(response => { 
-                    response.json() 
-                    console.log(data) 
+                    response.json()  
                 }) .catch(err => err) 
  
     const put = (url, body) => 
@@ -22,8 +21,7 @@ const RestClient = () => {
         },  
         body: JSON.stringify(body), }) 
         .then(response => { 
-            response.json() 
-            console.log(data) 
+            response.json()  
         }) .catch(err => err) 
      
     const remove = (url) => 
@@ -32,9 +30,8 @@ const RestClient = () => {
         }) 
         .then(response => { 
             response.json() 
-            console.log(data) 
         }) .catch(err => err) 
     return { get, post, put, remove } 
 } 
-console.log(RestClient())
+// console.log(RestClient())
 export default RestClient
