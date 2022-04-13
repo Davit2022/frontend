@@ -26,7 +26,7 @@ const RestClient = () => {
             console.log(data) 
         }) .catch(err => err) 
      
-    const del = (url) => 
+    const remove = (url) => 
         fetch(url,{ 
             method: 'DELETE' 
         }) 
@@ -34,7 +34,7 @@ const RestClient = () => {
             response.json() 
             console.log(data) 
         }) .catch(err => err) 
-    return { get, post, put, del } 
+    return { get, post, put, remove } 
 } 
 console.log(RestClient())
 export default RestClient
