@@ -1,11 +1,11 @@
 import React from "react";
-import Test from "./test/test"
+import Header from "./component/header/header"
 function App (){
  
   return(
    <div>
     My App Component
-     <Test />
+     <Header/>
    </div>
   );
  }
