@@ -1,5 +1,5 @@
 import React from 'react';
-import Test from './test/test';
+import Test from './test/test.jsx';
 
 function App() {
   return (
