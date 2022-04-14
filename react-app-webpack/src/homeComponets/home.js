@@ -5,7 +5,7 @@ import { loremIpsum } from 'react-lorem-ipsum';
 function Home() {
   return (
     <div className='Home'>
-      <div className='headr'>Headri mas</div>
+      <div className='headr'></div>
         <h1 className='homePage'>Home Page</h1>
       <div className="text-wrapper">
         {loremIpsum({ p: 3 }).map(text => (

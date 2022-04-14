@@ -4,7 +4,6 @@ function App (){
  
   return(
    <div>
-    My App Component
      <Home />
    </div>
   );

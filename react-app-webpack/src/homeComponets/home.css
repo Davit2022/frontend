@@ -1,6 +1,6 @@
 
 body {
-  background-color: #a8aea3;
+  background-image: url('../home/img/backraund1.jpg');
 }
 
 .Home   {
@@ -11,17 +11,18 @@ body {
   margin: 43px;
 }
 
-.text-wrapper{
-  display: flex;
+.homePage {
+  color: black;
+  font-size: 110px;
 }
+
 
 .text {
   display: flex;
-  border: 5px solid #676767;
+  border: 5px solid black;
+  font-size: 35px;
+  background: cadetblue;
 }
 
-.headr {
-  background-color: rgb(164, 50, 50);
-  margin-top: 5px;
-}
+
 
