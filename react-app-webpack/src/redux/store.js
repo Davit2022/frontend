@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
 
-const store =  createStore((state) => state, {
+const store = createStore((state) => state, {
   user: {
     name: 'Test',
   },
