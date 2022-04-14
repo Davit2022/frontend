@@ -1,14 +1,8 @@
-import React from "react";
-import {createStore} from "redux";
+import { createStore } from 'redux';
 
-
- const store =createStore((state)=>{
-
-  return state;
-},{
-    user:{
-        name:"test"
-    }
+const store =  createStore((state) => state, {
+  user: {
+    name: 'Test',
+  },
 });
-
 export default store;

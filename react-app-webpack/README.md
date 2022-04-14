@@ -29,3 +29,7 @@ http://localhost:8080/
 ```bash
 npm install redux react-redux
 ```
+### automatically fix some of the problems
+```bash
+npm run lint -- --fix
+```
