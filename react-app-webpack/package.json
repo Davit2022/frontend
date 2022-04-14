@@ -7,7 +7,7 @@
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack-dev-server --mode=development",
     "prod": "webpack --mode=production",
-    "lint": "eslint ./src --fix --color"
+    "lint": "eslint ./ --fix"
   },
   "keywords": [],
   "author": "",
