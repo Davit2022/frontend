@@ -1,0 +1,28 @@
+.continer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.imge:hover {
+    box-shadow: 1px 5px;
+    background-color: yellow;
+    transition: 1s;
+
+
+}
+
+
+.imge {
+    transition: 1s;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

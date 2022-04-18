@@ -1,11 +1,11 @@
 import React from "react";
-import Test from "./test/test"
+import Sale from "./actionComponet/sale";
+``
 function App (){
  
   return(
    <div>
-    My App Component
-     <Test />
+     <Sale />
    </div>
   );
  }
