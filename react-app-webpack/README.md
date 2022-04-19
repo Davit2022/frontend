@@ -25,3 +25,7 @@ npm run dev
 ```bash
 http://localhost:8080/
 ```
+### Install redux
+```bash
+npm install redux react-redux
+```
