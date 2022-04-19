@@ -1,3 +1,15 @@
-.test h1{
+/* .test h1{
+    justify-content: center;
     color: blue;
-}
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+  }
