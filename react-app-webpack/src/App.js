@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "./component/burgerMenu/navbar";
-import Footer from "./component/footer/footer";
 
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <>
       {/* <h1>My App Component</h1> */}
       <Navbar /> 
-      <Footer />
     </>
   );
 }
