@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./component/header/Header";
 
-function App (){
+const App = ()=>{
    return(
    <div>
          <Header />
