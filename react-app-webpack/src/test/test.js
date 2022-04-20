@@ -1,16 +1,16 @@
- import React from "react";
+import React from "react";
 import { useSelector } from "react-redux";
 
- function Test(){
-    const name= useSelector((state)=>{
-         return state.user.name
+function Test() {
+    const name = useSelector((state) => {
+        return state.user.name
 
-     })
-     return(
-         <div className="test">
-             <h1>{name}</h1>
-             </div>
-     )
- }
+    })
+    return (
+        <div className="test">
+            <h1>{name}</h1>
+        </div>
+    )
+}
 
- export default Test;
+export default Test;
