@@ -1,0 +1,21 @@
+.header {
+  display: flex;  
+  height: 180px;
+  background-image: linear-gradient(to right, rgba(37, 31, 31, 0), rgb(129, 194, 145));
+ }
+ 
+.header-info{
+  display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+}
+.header-buttons{
+  width: 760px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end  
+}
