@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    height: 777px;
+    background-image: linear-gradient(0deg, #026a15 0%, #9afc98 100%);
+    border-radius: 0.5%;
+
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+
