@@ -41,6 +41,5 @@
   .button-cart:active {
     transform: translateY(2px);
     transition-duration: .35s;
-  }
-  
- 
+  }  
+   

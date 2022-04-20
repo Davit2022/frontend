@@ -19,3 +19,11 @@
   flex-wrap: wrap;
   justify-content: flex-end  
 }
+.imgLogo{
+  width: 230px;
+  height:130px;
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;  
+  margin-right: 200px;
+}

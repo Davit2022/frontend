@@ -1,11 +1,11 @@
 import React from 'react'
-import image from '../logo/image.png'
-import '../logo/Logo.css'
+// import '../logo/Logo.css'
 
-function Logo () {
+const Logo = (props) => {
+    console.log(props);
     return (
         <div className="logo" >
-            <img src={image} width="230px" height="130px"></img>
+            <img src={props.src} className={props.className}></img>
         </div>
     )
 }

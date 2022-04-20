@@ -1,17 +1,19 @@
 import React from 'react';
 import Logo from '../common/logo/Logo';
 import Info from '../common/info/Info';
-import User from '../common/user/User'
-import Cart from '../common/cart/Cart'
+import User from '../common/user/User';
+import Cart from '../common/cart/Cart';
 import '../header/Header.css';
+import Image from '../assets/image.png';
+
 
 function Header() {
   return (
 
     <div className="header">
-      <div classname='header-logo'>
-        <Logo />
-      </div>
+      <div className='header-logo'>
+        <Logo src= {Image}  className="imgLogo" />
+      </div> 
 
       <div className='header-info'>
         <Info />
