@@ -1,36 +1,28 @@
 import React from 'react';
-import Logo from '../common/logo/Logo';
-import Info from '../common/info/Info';
-import User from '../common/user/User';
-import Cart from '../common/cart/Cart';
+import Logo from '../common/Logo';
+import image from '../assets/image.png';
+import Info from '../common/Info';
+import Button from '../common/Button';
 import '../header/Header.css';
-import Image from '../assets/image.png';
 
 
-function Header() {
+const Header = () => {
+
   return (
-
     <div className="header">
+
       <div className='header-logo'>
-        <Logo src= {Image}  className="imgLogo" />
-      </div> 
-
-      <div className='header-info'>
-        <Info />
+        <Logo imageSrc={image} quotes='You happy with us' />
       </div>
-
+      <div className='header-info'>
+      <Info />
+      </div>
       <div className='header-buttons'>
-        <div className='header-user'>
-          <User />
-        </div>
-
-        <div className='header-cart'>
-          <Cart />
-        </div>   
-      </div> 
-
+        <Button title={"Sign In"} className={"header-button"} onClick={()=>{console.log("login")}}/>
+        <Button title={"Cart"} className={"header-button"} onClick={()=>{console.log("add cart")}}/>        
+      </div>
     </div>
-
   )
 }
+
 export default Header;

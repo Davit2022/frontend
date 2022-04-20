@@ -1,29 +1,104 @@
 .header {
-  display: flex;  
+  display: flex;
   height: 180px;
   background-image: linear-gradient(to right, rgba(37, 31, 31, 0), rgb(129, 194, 145));
- }
- 
-.header-info{
-  display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.header-buttons{
-  width: 760px;
+
+.header-info {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: flex-end  
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  vertical-align: auto;
 }
-.imgLogo{
+
+.header-buttons {
+  width: 250px;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-content: center;
+}
+
+.imgLogo {
   width: 230px;
-  height:130px;
+  height: 130px;
   color: inherit;
   text-decoration: inherit;
-  font-family: RobotoThin;  
+  font-family: RobotoThin;
   margin-right: 200px;
+}
+
+
+.header-button {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #4d8e68;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.header-button:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.header-button:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.header-button:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.header-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;
+  margin-top: 200px;
+  color: rgb(120, 112, 79);
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  bottom: 81%;
+  position: absolute;
 }
