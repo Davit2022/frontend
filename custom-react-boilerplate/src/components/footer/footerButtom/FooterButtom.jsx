@@ -3,11 +3,11 @@ import "../Footer.css";
 
 function FooterBottom() {
   return (
-    <footer className="Footer3">
+    <footer className="footer3">
       <div className="footer-bottom">
         <p>
           copyright &copy;2022
-          <a href="/"> Heghine </a>
+          <a href="/"> ITC-13 </a>
         </p>
         <div className="footer-menu">
           <ul>

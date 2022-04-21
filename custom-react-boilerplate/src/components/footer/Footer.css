@@ -1,8 +1,9 @@
-.Footer1 {
+.footer1 {
     position: absolute;
     bottom: 0;
     justify-content: center;
-    background: linear-gradient(to right, rgba(37, 31, 31, 0), #81c291);
+    background: linear-gradient(180deg, rgba(37, 31, 31, 0), #81c291);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     height: auto;
     width: 100%;
     padding-top: 15px;
@@ -35,7 +36,7 @@
     color: #78704f;
 }
 
-.Footer2 {
+.footer2 {
   position: absolute;
   display: flex;
   align-items: center;
@@ -46,17 +47,17 @@
   justify-content: center;
 }
 
-.Footer2 ul {
+.footer2 ul {
   list-style: none;
   display: flex;
   align-items: center;
 }
 
-.Footer2 ul li {
+.footer2 ul li {
   margin: 0px 20px;
 }
 
-.Footer2 ul li a {
+.footer2 ul li a {
   text-decoration: none;
   color: #78704f;
   border: 1.1px solid #78704f;;
@@ -64,14 +65,14 @@
   border-radius: 25%;
 }
 
-.Footer2 ul li a:hover {
+.footer2 ul li a:hover {
   color: #6b5517;
 }
 
-.Footer3 {
+.footer3 {
   position: absolute;
   bottom: 0;
-  background-color: #1e8449;
+  background-color: #4d8e68;
   width: 96.9%;
   padding-top: 4px;
   padding-right: 20px;
@@ -80,7 +81,7 @@
   text-align: center;
 }
 
-.Footer3 p {
+.footer3 p {
   float: left;
   font-size: 14px;
   word-spacing: 2px;
@@ -88,14 +89,14 @@
   color: #ffffff;
 }
 
-.Footer3 p a {
+.footer3 p a {
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
 }
 
-.Footer3 p a:hover {
-  color: #b3b3b1;
+.footer3 p a:hover {
+  color: #04411d;
 }
 
 
@@ -118,7 +119,7 @@
 }
 
 .footer-menu ul li a:hover {
-  color: #b3b3b1;
+  color: #04411d;
 }
 
 @media (max-width:500px) {

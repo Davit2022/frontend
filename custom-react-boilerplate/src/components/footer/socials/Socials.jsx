@@ -6,7 +6,7 @@ import { ImTwitter } from "react-icons/im";
 
 function Socials() {
   return (
-    <footer className="Footer2">
+    <footer className="footer2">
       <ul>
         <li key="1">
           <a href="/Facebook">
