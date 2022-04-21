@@ -16,7 +16,7 @@ function NavBar() {
         </nav>
         <div className="input-icons">
           <i className="fa fa-search fa-1x" />
-          <input type="text" placeholder="Search..." />
+          <input className="searchInput" type="text" placeholder="Search..." />
         </div>
       </div>
     </div>

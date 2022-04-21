@@ -32,17 +32,17 @@ a:hover {
   border-right: 2px solid transparent;
 }
 
-input {
+.searchInput {
   border: 2px solid darkgreen;
   margin-top: 7px;
   border-radius: 50px;
   width: 400px;
   height: 35px;
 }
-input:focus {
+.searchInput:focus {
     outline: 1px solid darkgreen;
 }
-input::placeholder {
+.searchInput::placeholder {
   font-size: 15px;
   font-style: italic;
   padding-left: 10px;
