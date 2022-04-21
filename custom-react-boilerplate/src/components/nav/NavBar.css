@@ -1,0 +1,50 @@
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: aliceblue;
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+  transition: ease-in-out 0.2s;
+  border-left: 2px solid #0064001c;
+  border-right: 2px solid #0064001c;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+a:hover {
+  color: brown;
+  border-bottom: 3px solid brown;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+input {
+  border: 2px solid darkgreen;
+  margin-top: 7px;
+  border-radius: 50px;
+  width: 400px;
+  height: 40px;
+}
+input:focus {
+    outline: 1px solid darkgreen;
+}
+input::placeholder {
+  color: darkgreen;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
