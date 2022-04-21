@@ -35,7 +35,6 @@ h1 {
     border-radius: 5px;
     width: 100%;
     margin-bottom: 11px;
-    /* text-align: center; */
     border: 1px solid lightgrey;
     width: 100%;
     padding: 10px;
@@ -54,8 +53,6 @@ h1 {
 
 input::placeholder {
     color: red;
-    font-style: arial;
-    display: flex;
 }
 
 .fild i {
@@ -69,7 +66,7 @@ input::placeholder {
 
 .fild1::placeholder {
     color: #b3b3b3;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #login {
