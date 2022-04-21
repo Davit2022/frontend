@@ -6,12 +6,10 @@ import Form from "../common/Form";
 import Input from "../common/Input";
 import Button from "../common/Button";
 
-
 const UserSchema = yup.object().shape({
   email: yup.string().email().required("Email is incorrect"),
   password: yup.string().min(4).max(15).required("Password is incorrect"),
 });
-
 
 function Login() {
   const formik = useFormik({
@@ -22,7 +20,7 @@ function Login() {
 
     validationSchema: UserSchema,
     onSubmit: () => {
-      console.log(values);
+      // console.log(values);
     },
   });
 
