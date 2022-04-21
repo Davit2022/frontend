@@ -2,14 +2,6 @@
   margin: 0px 20px;
 }
 
-.socials a {
-  text-decoration: none;
-  color: #ffffff;
-  border: 1.1px solid #ffffff;
-  padding: 10px;
-  border-radius: 25%;
-}
-
 .socials a:hover {
   color: #6b5517;
 }
