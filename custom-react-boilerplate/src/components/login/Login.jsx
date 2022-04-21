@@ -22,7 +22,7 @@ function Login() {
 
     validationSchema: UserSchema,
     onSubmit: () => {
-      // console.log(values);
+      console.log(values);
     },
   });
 
