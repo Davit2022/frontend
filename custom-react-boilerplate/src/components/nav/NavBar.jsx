@@ -1,27 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ITEMS } from "../../constants/menuItems";
+import "./NavBar.css";
 
 function NavBar() {
   return (
-    <div
-      style={{
-        width: "100%",
-        height: 80,
-        border: "5px solid black",
-      }}
-    >
-      <nav
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-        }}
-      >
+    <div className="menu">
+      <nav className="navBar">
         {ITEMS.map((item) => (
-          <Link style={{ margin: "10px" }} to={`${item.link}`} key={item.id}>
+          <Link to={`${item.link}`} key={item.id}>
             {item.title}
           </Link>
         ))}
+        <input type="text" placeholder="Search" />
       </nav>
     </div>
   );
