@@ -49,11 +49,6 @@ h1 {
     border-color: #83f8fc;
 }
 
-input::placeholder { 
-    color: red;
-    font-style: arial;
-    display: flex;
- }
 
 .fild i {
     position: absolute
@@ -65,6 +60,9 @@ input::placeholder {
     display: flex;
     text-align: left;
     font-size: 17px;
+    color: #fd7c73;
+    font-style: arial;
+    display: flex;
 }
 
 #singup {
