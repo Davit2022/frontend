@@ -1,14 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { SOCIAL } from "../../../constants/socials";
 
 function Socials() {
   return (
     <footer className="footer2">
       {SOCIAL.map((social) => (
-        <Link to={`${social.link}`} key={social.id}>
+        <a href={social.link} target="_blank" rel="noreferrer">
+          {" "}
           <i className={social.className} />
-        </Link>
+          {" "}
+        </a>
       ))}
     </footer>
   );

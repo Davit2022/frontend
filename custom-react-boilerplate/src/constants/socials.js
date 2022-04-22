@@ -12,22 +12,22 @@ export const SOCIAL = [
   {
     id: 2,
     className: "fa fa-twitter fa-1x",
-    link: "/twitter",
+    link: "https://twitter.com/",
   },
   {
     id: 3,
-    className: "fa fa-google-plus fa-1x",
-    link: "/googlePlus",
+    className: "fa fa-google fa-1x",
+    link: "https://www.google.com/",
   },
   {
     id: 4,
     className: "fa fa-youtube-play fa-1x",
-    link: "/youtube",
+    link: "https://www.youtube.com/",
   },
   {
     id: 5,
     className: "fa fa-linkedin fa-1x",
-    link: "/linkedinIn",
+    link: "https://www.linkedin.com/",
   },
 ];
 
