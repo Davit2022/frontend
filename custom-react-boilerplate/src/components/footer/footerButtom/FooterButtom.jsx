@@ -1,5 +1,7 @@
 import React from "react";
 import "../Footer.css";
+import { Link } from "react-router-dom";
+import { ITEMS } from "../../../constants/menuItems";
 
 function FooterBottom() {
   return (
@@ -10,7 +12,7 @@ function FooterBottom() {
           <a href="/"> ITC-13 </a>
         </p>
         <div className="footer-menu">
-          <ul>
+          {/* <ul>
             <li key="1">
               <a href="/"> Home</a>
             </li>
@@ -23,7 +25,12 @@ function FooterBottom() {
             <li key="4">
               <a href="/eco">Eco</a>
             </li>
-          </ul>
+          </ul> */}
+          {ITEMS.map((item) => (
+            <Link style={{ margin: "10px" }} to={`${item.link}`} key={item.id}>
+              {item.title}
+            </Link>
+          ))}
         </div>
       </div>
     </footer>

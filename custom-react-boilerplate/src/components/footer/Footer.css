@@ -102,15 +102,8 @@
 
 .footer-menu {
   float: right;
-}
-
-.footer-menu ul {
   display: flex;
-}
-
-.footer-menu ul li {
-  padding-right: 10px;
-  display: block;
+  padding-right: 25px;
 }
 
 .footer-menu ul li a {
