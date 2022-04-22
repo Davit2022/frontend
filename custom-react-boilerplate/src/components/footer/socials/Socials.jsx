@@ -1,13 +1,11 @@
 import React from "react";
-import {
-  FaFacebook, FaGooglePlus, FaLinkedinIn, FaYoutube,
-} from "react-icons/fa";
-import { ImTwitter } from "react-icons/im";
+// import { Link } from "react-router-dom";
+import { SOCIAL } from "../../../constants/Socials";
 
 function Socials() {
   return (
     <footer className="footer2">
-      <ul>
+      {/* <ul>
         <li key="1">
           <a href="/Facebook">
             <FaFacebook />
@@ -33,7 +31,14 @@ function Socials() {
             <FaLinkedinIn />
           </a>
         </li>
-      </ul>
+      </ul> */}
+
+      {SOCIAL.map((social) => (
+        // <Link to={`${social.link}`} key={social.id} ison={social.className}>
+        //   {social.icon}
+        // </Link>
+        <i className={social.className} />
+      ))}
     </footer>
   );
 }

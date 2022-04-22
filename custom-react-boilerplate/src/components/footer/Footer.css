@@ -106,12 +106,12 @@
   padding-right: 25px;
 }
 
-.footer-menu ul li a {
+.footer-menu a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.footer-menu ul li a:hover {
+.footer-menu a:hover {
   color: #04411d;
 }
 
