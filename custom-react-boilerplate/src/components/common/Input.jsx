@@ -1,7 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
-
-const [value, setValues] = useState("");
 
 function Input(props) {
   const {
@@ -14,7 +12,7 @@ function Input(props) {
       type={type}
       placeholder={placeholder}
       onChange={onChange}
-      value={() => { setValues(value); }}
+      value={value}
       autoComplete={autoComplete}
     />
   );
