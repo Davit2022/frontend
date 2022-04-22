@@ -6,21 +6,18 @@ import { FiMail } from "react-icons/fi";
 function Info() {
   return (
     <div className="info-items">
-      <span>
+      <div>
         <HiOutlineLocationMarker />
-        {" "}
         Address: RA, Gyumri, A. Manukyan 1
-      </span>
-      <span>
+      </div>
+      <div>
         <BsTelephone />
-        {" "}
         Phone: +374 55 51 01 05
-      </span>
-      <span>
+      </div>
+      <div>
         <FiMail />
-        {" "}
         E-mail: market@shop.am
-      </span>
+      </div>
     </div>
   );
 }
