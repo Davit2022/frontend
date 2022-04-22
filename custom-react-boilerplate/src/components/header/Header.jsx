@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../common/Logo";
 import image from "../../assets/image.png";
 import Info from "../common/Info";
@@ -15,18 +16,15 @@ function Header() {
         <Info />
       </div>
       <div className="header-buttons">
-        <Button
-          title="Sign In"
-          className="header-button"
-          onClick={() => {
-          }}
-        />
-        <Button
-          title="Cart"
-          className="header-button"
-          onClick={() => {
-          }}
-        />
+        <Link to="/login">
+          <Button
+            title="Login"
+            className="header-button"
+          />
+        </Link>
+        <Link to="/cart">
+          <Button title="Cart" className="header-button" />
+        </Link>
       </div>
     </div>
   );

@@ -7,15 +7,15 @@ function Info() {
   return (
     <div className="info-items">
       <div>
-        <HiOutlineLocationMarker />
+        <HiOutlineLocationMarker className="info-icon" />
         Address: RA, Gyumri, A. Manukyan 1
       </div>
       <div>
-        <BsTelephone />
+        <BsTelephone className="info-icon" />
         Phone: +374 55 51 01 05
       </div>
       <div>
-        <FiMail />
+        <FiMail className="info-icon" />
         E-mail: market@shop.am
       </div>
     </div>
