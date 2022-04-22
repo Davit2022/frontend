@@ -16,7 +16,7 @@ function Logo(props) {
           font_family: "RobotoThin",
           margin_right: "200px",
         }}
-        alt="Logo"
+        alt="logo"
       />
 
       <div
