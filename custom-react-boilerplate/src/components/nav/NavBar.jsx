@@ -5,19 +5,17 @@ import "./NavBar.css";
 
 function NavBar() {
   return (
-    <div>
-      <div className="menu">
-        <nav className="navBar">
-          {ITEMS.map((item) => (
-            <Link to={`${item.link}`} key={item.id}>
-              {item.title}
-            </Link>
-          ))}
-        </nav>
-        <div className="input-icons">
-          <i className="fa fa-search fa-1x" />
-          <input className="searchInput" type="text" placeholder="Search..." />
-        </div>
+    <div className="menu">
+      <nav className="navBar">
+        {ITEMS.map((item) => (
+          <Link to={`${item.link}`} key={item.id}>
+            {item.title}
+          </Link>
+        ))}
+      </nav>
+      <div className="input-icons">
+        <i className="fa fa-search fa-1x" />
+        <input className="searchInput" type="text" placeholder="Search..." />
       </div>
     </div>
   );
