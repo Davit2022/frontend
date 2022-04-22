@@ -21,7 +21,7 @@ function Input(props) {
 
 Input.propTypes = {
   className: PropTypes.string,
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   type: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -35,6 +35,7 @@ Input.defaultProps = {
   autoComplete: "",
   placeholder: "",
   style: "",
+  name: "",
 };
 
 export default Input;
