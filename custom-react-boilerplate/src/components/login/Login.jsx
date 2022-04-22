@@ -19,16 +19,18 @@ function Login() {
     },
 
     validationSchema: UserSchema,
-    onSubmit: () => {
-      // console.log(values);
-    },
+    onSubmit: () => {},
   });
+
+  const {
+    handleSubmit, handleChange, values, errors, touched,
+  } = formik;
 
   return (
     <div className="Login">
       <div className="controlers">
         <h1>Login</h1>
-        <Form onSubmit={formik.handleSubmit}>
+        <Form onSubmit={handleSubmit}>
           <div className="fild" htmlFor="email">
             <span>
               <i
@@ -41,12 +43,12 @@ function Login() {
               name="email"
               type="text"
               placeholder="Enter your email address"
-              onChange={formik.handleChange}
-              value={formik.values.email}
+              onChange={handleChange}
+              value={values.email}
               autoComplete="on"
             />
           </div>
-          {formik.errors.email && formik.touched.email ? <div className="error">{formik.errors.email}</div> : null}
+          {errors.email && touched.email ? <div className="error">{errors.email}</div> : null}
           <div className="fild" htmlFor="password">
             <span>
               <i
@@ -59,13 +61,13 @@ function Login() {
               name="password"
               type="password"
               placeholder="Enter your password"
-              onChange={formik.handleChange}
-              value={formik.values.password}
+              onChange={handleChange}
+              value={values.password}
               autoComplete="on"
             />
           </div>
-          {formik.errors.password && formik.touched.password ? <div className="error">{formik.errors.password}</div> : null}
-          <Button id="login" type="submit" title="Submit" />
+          {errors.password && touched.password ? <div className="error">{errors.password}</div> : null}
+          <Button id="login" isSubmit title="Submit" />
         </Form>
       </div>
     </div>
