@@ -8,8 +8,9 @@ function NavBar() {
     <div className="menu">
       <nav className="navBar">
         {ITEMS.map((item) => (
-          <Link to={`${item.link}`} key={item.id}>
+          <Link className="linkNavItem" to={`${item.link}`} key={item.id}>
             {item.title}
+
           </Link>
         ))}
       </nav>
