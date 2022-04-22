@@ -25,13 +25,13 @@ a {
   padding-left: 40px;
   padding-right: 40px;
 }
-a:hover {
+/* a:hover {
   color: brown;
   border-bottom: 3px solid brown;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
-}
-
+} */
+/* 
 input {
   border: 2px solid darkgreen;
   margin-top: 7px;
@@ -47,4 +47,4 @@ input::placeholder {
   font-size: 20px;
   font-style: italic;
   text-align: center;
-}
+} */

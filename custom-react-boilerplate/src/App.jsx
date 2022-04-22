@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage";
+import Register from "./components/register/Registerform";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Route path="fruits" element={<div>Fruits</div>} />
         </Route>
         <Route path="/login" element={<div>login</div>} />
-        <Route path="/register" element={<div>register</div>} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

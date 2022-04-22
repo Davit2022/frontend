@@ -1,0 +1,129 @@
+body {
+    place-items: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Register {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 0%), 0px 0px 12px rgb(0 0 0 / 10%);
+    background: #fff;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0 1px 1px #fff;
+    padding-bottom: 20px;
+}
+
+.fild1 {
+    border-radius: 5px;
+    margin-bottom: 11px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    padding-left: 61px;
+    font-family: arial;
+    transition: all 0.3s ease;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    outline: none;
+    cursor: text;
+}
+
+.fild1:focus {
+    border-color: #83f8fc;
+}
+
+input::placeholder { 
+    color: red;
+    font-style: arial;
+    display: flex;
+ }
+
+.fild i {
+    position: absolute
+}
+
+.fild1::placeholder {
+    color: #b3b3b3;
+    transition: all 0.3s ease;
+    display: flex;
+    text-align: left;
+    font-size: 17px;
+}
+
+#singup {
+    font-family: "Great Vibes", cursive;
+    color: #fff;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 37px;
+    margin-bottom: 11px;
+    width: 100%;
+    border: 1.5px solid #fd7c73;
+    color: #ff4335;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+#singup:hover {
+    color: #ff1100;
+    border: 1.5px solid #ff1100;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 30%), 0px 0px 12px rgb(0 0 0 / 22%);
+}
+
+.error {
+    color: #fd7c73;
+    font-size: 12px;
+    display: flex;
+    width: 250px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#nameError {
+    display: none;
+    font-size: 0.8em;
+}
+
+#nameError.visible {
+    display: block;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.icon {
+    padding: 10px;
+    color: red;
+    min-width: 50px;
+    text-align: center;
+
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
