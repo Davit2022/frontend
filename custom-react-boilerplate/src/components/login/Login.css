@@ -51,10 +51,6 @@ h1 {
     border-color: #83f8fc;
 }
 
-input::placeholder {
-    color: red;
-}
-
 .fild i {
     position: absolute
 }
@@ -63,7 +59,7 @@ input::placeholder {
     color: #b3b3b3;
     transition: all 0.3s ease;
     font-size: 15px;
-
+    color: #fd7c73;
 }
 
 #login {

@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
+
+const [value, setValues] = useState("");
 
 function Input(props) {
   const {
@@ -12,7 +14,7 @@ function Input(props) {
       type={type}
       placeholder={placeholder}
       onChange={onChange}
-      value={value}
+      value={() => { setValues(value); }}
       autoComplete={autoComplete}
     />
   );
@@ -20,7 +22,7 @@ function Input(props) {
 
 Input.propTypes = {
   className: PropTypes.string,
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   type: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
   onChange: PropTypes.func.isRequired,
@@ -32,6 +34,7 @@ Input.defaultProps = {
   className: "",
   placeholder: "",
   autoComplete: "",
+  name: "",
 };
 
 export default Input;

@@ -19,7 +19,7 @@ function Login() {
     },
 
     validationSchema: UserSchema,
-    onSubmit: () => {},
+    onSubmit: () => { },
   });
 
   const {
