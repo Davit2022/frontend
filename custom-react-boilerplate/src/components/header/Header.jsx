@@ -16,7 +16,7 @@ function Header() {
         <Info />
       </div>
       <div className="header-buttons">
-        <Link to="/login" >
+        <Link to="/login">
           <Button
             title="Login"
             className="header-button"
