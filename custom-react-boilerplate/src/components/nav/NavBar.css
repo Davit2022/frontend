@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-a {
+.linkNavItem {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
@@ -25,7 +25,7 @@ a {
   padding-right: 40px;
   margin-right: 40px; 
 }
-a:hover {
+.linkNavItem:hover {
   color: brown;
   border-bottom: 3px solid brown;
   border-left: 2px solid transparent;
