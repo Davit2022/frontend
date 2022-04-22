@@ -47,25 +47,20 @@
   justify-content: center;
 }
 
-.footer2 ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
 
-.footer2 ul li {
-  margin: 0px 20px;
-}
-
-.footer2 ul li a {
+.footer2 a {
   text-decoration: none;
   color: #78704f;
   border: 1.1px solid #78704f;;
   padding: 10px;
   border-radius: 25%;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
 }
 
-.footer2 ul li a:hover {
+.footer2 a:hover {
   color: #6b5517;
 }
 
