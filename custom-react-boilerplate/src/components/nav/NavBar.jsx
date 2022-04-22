@@ -12,8 +12,11 @@ function NavBar() {
             {item.title}
           </Link>
         ))}
-        <input type="text" placeholder="Search" />
       </nav>
+      <div className="input-icons">
+        <i className="fa fa-search fa-1x" />
+        <input className="searchInput" type="text" placeholder="Search..." />
+      </div>
     </div>
   );
 }
