@@ -53,6 +53,7 @@ h1 {
     border: 1px solid lightgrey;
     border-bottom-width: 2px;
     outline: none;
+    cursor:auto;
 }
 
 .fild1:focus {
