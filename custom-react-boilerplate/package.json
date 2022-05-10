@@ -8,6 +8,7 @@
     "lint": "eslint --fix --ext .js,.jsx .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --env=production"
+
   },
   "keywords": [],
   "author": "",
@@ -42,6 +43,7 @@
     "eslint-webpack-plugin": "3.1.1",
     "html-loader": "3.1.0",
     "html-webpack-plugin": "5.5.0",
+    "jest": "^28.1.0",
     "less": "4.1.2",
     "less-loader": "10.2.0",
     "style-loader": "3.3.1",
@@ -49,4 +51,6 @@
     "webpack-cli": "4.9.2",
     "webpack-dev-server": "4.8.1"
   }
+  
 }
+
