@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development --env=development",
     "lint": "eslint --fix --ext .js,.jsx .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --env=production"
   },
   "keywords": [],

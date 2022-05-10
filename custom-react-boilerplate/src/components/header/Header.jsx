@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Logo from "../common/Logo";
 import image from "../../assets/image.png";
 import Info from "../common/Info";
@@ -7,6 +7,12 @@ import Button from "../common/Button";
 import "./Header.css";
 
 function Header() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/login");
+  };
+
   return (
     <div className="header">
       <div className="header-logo">
@@ -16,15 +22,10 @@ function Header() {
         <Info />
       </div>
       <div className="header-buttons">
-        <Link to="/login">
-          <Button
-            title="Login"
-            className="header-button"
-          />
-        </Link>
-        <Link to="/cart">
-          <Button title="Cart" className="header-button" />
-        </Link>
+        <Button title="Login" className="header-button" onClick={handleClick}>
+          <div>HEY</div>
+        </Button>
+        <Button title="Cart" className="header-button" onClick={handleClick} />
       </div>
     </div>
   );
