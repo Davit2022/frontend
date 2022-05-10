@@ -9,14 +9,9 @@ function Form(props) {
     </form>
   );
 }
-
 Form.propTypes = {
   onSubmit: PropTypes.func.isRequired,
-  children: PropTypes.arrayOf(PropTypes.node),
-};
-
-Form.defaultProps = {
-  children: "",
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
 };
 
 export default Form;

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Input(props) {
   const {
-    className, name, type, placeholder, onChange, value, autoComplete,
+    className, name, type, placeholder, onChange, value, autoComplete, style,
   } = props;
   return (
     <input
@@ -14,6 +14,7 @@ function Input(props) {
       onChange={onChange}
       value={value}
       autoComplete={autoComplete}
+      style={style}
     />
   );
 }
@@ -26,12 +27,14 @@ Input.propTypes = {
   onChange: PropTypes.func.isRequired,
   value: PropTypes.string.isRequired,
   autoComplete: PropTypes.string,
+  style: PropTypes.string,
 };
 
 Input.defaultProps = {
   className: "",
-  placeholder: "",
   autoComplete: "",
+  placeholder: "",
+  style: "",
   name: "",
 };
 

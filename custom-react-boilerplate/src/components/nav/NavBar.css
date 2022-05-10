@@ -25,7 +25,9 @@
   padding-right: 40px;
   margin-right: 40px; 
 }
+
 .linkNavItem:hover {
+
   color: brown;
   border-bottom: 3px solid brown;
   border-left: 2px solid transparent;
@@ -51,6 +53,6 @@
 
 .input-icons i {
   position: absolute;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 370px;
 }
